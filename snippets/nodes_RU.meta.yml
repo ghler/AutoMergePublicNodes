@@ -71,9 +71,3 @@ proxies:
   port: 5112
   server: 90.156.203.62
   type: ss
-- name: 🇷🇺RU_1|1011KB/s
-  port: 443
-  server: 82.147.71.46
-  skip-cert-verify: true
-  tls: true
-  type: http

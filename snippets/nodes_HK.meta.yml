@@ -142,13 +142,6 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇭🇰HK_1|4.0MB/s
-  password: admin
-  port: 8899
-  server: 47.242.19.215
-  skip-cert-verify: true
-  type: socks5
-  username: admin
 - alterId: 0
   cipher: auto
   name: '🇭🇰 香港 | HKG #1'

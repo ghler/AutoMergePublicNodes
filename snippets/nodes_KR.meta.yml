@@ -142,6 +142,13 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- name: '🇰🇷 韩国 | KOR #3'
+  password: Trojan@82164024
+  port: 443
+  server: kr.tronsg.com
+  skip-cert-verify: true
+  sni: kr.tronsg.com
+  type: trojan
 - client-fingerprint: chrome
   name: '🇰🇷 韩国 | KOR #1'
   network: ws
@@ -156,13 +163,6 @@ proxies:
     headers:
       Host: cf3.schzyc.cc.cd
     path: /proxyip=ProxyIP.CMLiussss.net
-- name: '🇰🇷 韩国 | KOR #3'
-  password: Trojan@82164024
-  port: 443
-  server: kr.tronsg.com
-  skip-cert-verify: true
-  sni: kr.tronsg.com
-  type: trojan
 - client-fingerprint: chrome
   name: '🇰🇷 韩国 | KOR #4'
   network: ws

@@ -88,32 +88,6 @@ proxies:
   skip-cert-verify: true
   sni: d3-de2.cloud-cdn.xyz
   type: trojan
-- cipher: aes-256-cfb
-  name: '🇩🇪 德国 | DEU #2'
-  password: amazonskr05
-  port: 443
-  server: 3.67.197.81
-  type: ss
-  udp: true
-- name: 🇩🇪DE_2|1.2MB/s
-  password: None
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_3|2.9MB/s
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_4|1.4MB/s
-  port: 443
-  server: 194.135.33.185
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: '🇩🇪 德国 | DEU #1'
   network: tcp
   port: 39100
@@ -124,6 +98,25 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /
+- name: 🇩🇪DE_2|1.2MB/s
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_3|1.2MB/s
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- cipher: aes-256-cfb
+  name: '🇩🇪 德国 | DEU #2'
+  password: amazonskr05
+  port: 443
+  server: 3.67.197.81
+  type: ss
+  udp: true
 - client-fingerprint: safari
   name: '🇩🇪 德国 | DEU #3'
   network: xhttp
