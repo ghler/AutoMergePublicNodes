@@ -3,7 +3,7 @@ name: Fetch
 on:
   workflow_dispatch:
   schedule:
-    # 表达式生成 https://crontab.guru/
+    # 表达式生成 https://crontab.guru/ run at 7mins past the hour, every 23h
     - cron: '7 */23 * * *'
   push:
     paths:
