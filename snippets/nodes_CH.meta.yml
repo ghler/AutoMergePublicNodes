@@ -1,37 +1,38 @@
 proxies:
+- client-fingerprint: firefox
+  encryption: none
+  name: '🇷🇺[www.v2nodes.com] vless-RU-1... #1'
+  network: tcp
+  port: 443
+  server: 149.33.15.213
+  servername: swz.proxyplankton.ru
+  tls: true
+  type: vless
+  uuid: 054362fb-e485-4a3f-9568-4c5b0f60e074
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇭[www.v2nodes.com] ss-CH-1573...
   password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
   port: 8388
   server: 132.243.175.144
   type: ss
-- client-fingerprint: chrome
-  name: 🇨🇭CH_1|1.1MB/s
-  network: tcp
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 208.69.78.19
-  skip-cert-verify: false
-  sni: www.yourultimateprofessionalcareerhub.com
-  type: trojan
-  udp: true
-- name: 🇨🇭CH_2|1.5MB/s
-  password: None
-  port: 9443
-  server: 37.120.213.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇨🇭CH_3|2.3MB/s
+- name: 🇨🇭CH_1|1.7MB/s
   port: 9443
   server: 149.88.27.46
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇨🇭CH_4|2.4MB/s
-  password: None
+  udp: true
+- name: 🇨🇭CH_2|2.5MB/s|K001-260618
   port: 9443
   server: 149.88.27.33
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+- name: 🇨🇭CH_3|2.5MB/s
+  port: 443
+  server: 31.7.62.50
   skip-cert-verify: true
   tls: true
   type: http
