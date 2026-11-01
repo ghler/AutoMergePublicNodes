@@ -1,29 +1,20 @@
 proxies:
-- name: 🇪🇪EE_2|1.8MB/s
+- name: 🇪🇪EE_1|2.5MB/s
   password: None
-  port: 443
+  port: 9443
   server: 95.153.32.2
   skip-cert-verify: true
   tls: true
   type: http
-- alpn:
-  - h3
-  auth: 2a0fc918-9c61-451b-a9ad-e8f796e70f52
-  down: 200
-  name: 🇪🇪 爱沙尼亚 | EST 2
-  password: 2a0fc918-9c61-451b-a9ad-e8f796e70f52
-  port: 443
-  server: 13.143.239.127
-  skip-cert-verify: true
-  sni: nl1.obxodvpn.us
-  type: hysteria2
+- client-fingerprint: firefox
+  name: '🇪🇪 爱沙尼亚 | EST #1'
+  network: tcp
+  port: 57043
+  server: 179.253.179.109
+  servername: 87.121.86.24
+  tls: true
+  type: vless
   udp: true
-  up: 100
-- name: '🇪🇪 爱沙尼亚 | EST #2'
-  password: 2a0fc918-9c61-451b-a9ad-e8f796e70f52
-  port: 443
-  server: 13.143.239.127
-  skip-cert-verify: true
-  sni: nl1.obxodvpn.us
-  tls: false
-  type: hysteria2
+  uuid: da8fab8e-4a25-4eb0-b224-88ab96c753ce
+  ws-opts:
+    path: /
