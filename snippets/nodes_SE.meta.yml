@@ -1,5 +1,5 @@
 proxies:
-- name: Telegram 🆔@cnetvpn 🇸🇪
+- name: 🇫🇮204824 | ⚡️Telegram = t.me/S...
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: vz86jgszv4zszchv
@@ -9,7 +9,15 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '🇸🇪[www.v2nodes.com] vless-SE-1... #1'
+- client-fingerprint: chrome
+  name: '🇸🇪[www.v2nodes.com] vless-SE-1... #1'
+  network: tcp
+  port: 443
+  server: static.fatcutecat.net
+  tls: true
+  type: vless
+  uuid: b95eb0b3-a8dc-41ce-8bc0-888f81731e7c
+- name: '🇸🇪[www.v2nodes.com] vless-SE-1... #4'
   network: ws
   port: 14430
   server: 5.178.109.174
@@ -32,38 +40,9 @@ proxies:
   port: 8388
   server: 70.34.212.124
   type: ss
-- name: 🇸🇪SE_1|3.6MB/s
-  password: None
-  port: 443
-  server: 146.70.242.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇸🇪SE_2|3.2MB/s
+- name: 🇸🇪SE_1|2.3MB/s
   port: 443
   server: 146.70.242.130
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇸🇪SE_3|3.7MB/s
-  password: None
-  port: 443
-  server: 79.142.77.63
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: 🇸🇪SE_4|1.3MB/s
-  network: ws
-  password: f426d3c9-fb43-43c0-868b-898dfa451a74
-  port: 443
-  server: 121.127.33.130
-  skip-cert-verify: false
-  sni: likejennie.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/50.0.2661.94 Safari/537.36
-    path: ''

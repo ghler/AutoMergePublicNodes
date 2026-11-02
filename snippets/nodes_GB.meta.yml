@@ -13,19 +13,13 @@ proxies:
   tls: true
   type: vless
   uuid: 36cf792c-f07d-4500-97ea-a395e5178deb
-- encryption: none
-  name: '🇬🇧[www.v2nodes.com] vless-GB-1... #5'
-  network: tcp
+- name: '🇬🇧[www.v2nodes.com] vless-GB-1... #4'
   port: 10002
   server: connect.hondamotor.site
   tls: false
   type: vless
   uuid: c6362720-0931-4b91-b187-d8ecf3149734
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: '🇬🇧[www.v2nodes.com] vless-GB-1... #7'
+- name: '🇬🇧[www.v2nodes.com] vless-GB-1... #7'
   network: tcp
   port: 8443
   server: node-uk.connectsuite.org
@@ -79,49 +73,51 @@ proxies:
   port: 7001
   server: 94.156.250.148
   type: ss
-- name: 🇬🇧[www.v2nodes.com] trojan-GB-...
-  password: 5t6i121em5lkmsmk
-  port: 29813
-  server: en001.zestapp778.com
+- name: 🇬🇧GB_1|2.5MB/s
+  password: None
+  port: 443
+  server: 185.164.138.156
   skip-cert-verify: true
-  sni: en001.zestapp778.com
-  type: trojan
-- name: 🇬🇧GB_1|2.7MB/s
+  tls: true
+  type: http
+- name: 🇬🇧GB_2|2.0MB/s
+  port: 9443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_3|2.2MB/s
+  password: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
+  port: 443
+  server: 3d329aa8-t9zts0-tpaqgu-1smhu.uk.oshuawei.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
+- name: 🇬🇧GB_4|2.9MB/s
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_5|2.9MB/s
+  port: 443
+  server: 212.102.63.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_6|3.3MB/s
   password: None
   port: 443
   server: 84.17.50.193
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_2|2.4MB/s
-  password: None
-  port: 443
-  server: 212.102.63.1
+- name: 🇬🇧 英国 | GBR
+  password: ece1b2df-a71d-47a4-962a-9084226263d3
+  port: 10009
+  server: 2088.nyyen.com
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_3|2.1MB/s
-  password: None
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_4|2.7MB/s
-  password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
-  port: 443
-  server: 5b33bfe4-tdups0-tf8z9r-1pr35.uk.oshuawei.com
-  tls: true
-  type: http
-  username: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
-- alpn:
-  - h2
-  - http/1.1
-  name: 🇬🇧 英国 | GBR
-  password: c86efa7e-f7fb-47d6-b832-6b44cf5e8b71
-  port: 11108
-  server: gb01.dw.sh-cloudflare.sbs
-  skip-cert-verify: true
-  sni: gb01.shanhai.me
+  sni: buylite.music.apple.com
   type: anytls
   udp: true
