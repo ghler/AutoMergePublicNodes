@@ -22,11 +22,3 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-- name: 🇹🇼TW_1|4.9MB/s
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 22003
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: cm.g.doubleclick.net
-  type: trojan
-  udp: true

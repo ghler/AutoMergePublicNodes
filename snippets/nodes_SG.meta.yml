@@ -1,10 +1,9 @@
 proxies:
 - client-fingerprint: chrome
-  encryption: none
   name: 🇸🇬[www.v2nodes.com] vless-SG
   network: ws
   port: 443
-  server: 104.18.37.127
+  server: 172.64.155.209
   servername: ccc.010304.xyz
   tls: true
   type: vless
@@ -17,14 +16,14 @@ proxies:
   name: '🇸🇬[www.v2nodes.com] vless-SG #1'
   network: ws
   port: 443
-  server: 104.21.63.28
-  servername: youxuanku.kdns.fr
+  server: 172.64.153.66
+  servername: ccc.010304.xyz
   tls: true
   type: vless
-  uuid: 4c0b7280-76bb-495c-9c8b-f05712ebf805
+  uuid: d342d11e-d224-4463-b982-532309285094
   ws-opts:
     headers:
-      Host: youxuanku.kdns.fr
+      Host: ccc.010304.xyz
     path: /
 - client-fingerprint: chrome
   name: 🇸🇬[www.v2nodes.com] vless-SG-1...
@@ -44,7 +43,7 @@ proxies:
   type: vless
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
 - client-fingerprint: chrome
-  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #4'
+  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #5'
   network: ws
   port: 2096
   server: 139.162.27.96
@@ -56,32 +55,44 @@ proxies:
     headers:
       Host: free-server.techsonic.dev
     path: /free-server.techsonic.dev
-- name: '🇸🇬[www.v2nodes.com] vless-SG-1... #8'
+- name: '🇸🇬[www.v2nodes.com] vless-SG-1... #9'
   port: 12512
   server: 46.137.202.178
   tls: false
   type: vless
   uuid: 2a6c617d-98e4-49c3-95ab-76f02fcf0150
-- name: 🇸🇬[www.v2nodes.com] vless-SG-9...
+- client-fingerprint: chrome
+  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #10'
+  network: ws
   port: 443
-  server: 188.164.248.216
-  tls: false
+  server: 104.18.40.100
+  servername: ccc.010304.xyz
+  tls: true
   type: vless
   uuid: d342d11e-d224-4463-b982-532309285094
   ws-opts:
+    headers:
+      Host: ccc.010304.xyz
     path: /fp=chrome
-- name: '🇸🇬[www.v2nodes.com] vless-SG-9... #1'
+- client-fingerprint: chrome
+  name: 🇸🇬[www.v2nodes.com] vless-SG-9...
   network: ws
-  port: 8080
-  server: 104.16.0.1
-  servername: hhlfy.twiladaphne.ndjp.net
-  tls: false
+  port: 443
+  server: 104.16.122.227
+  servername: ccc.010304.xyz
+  tls: true
   type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  uuid: d342d11e-d224-4463-b982-532309285094
   ws-opts:
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /
+      Host: ccc.010304.xyz
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+- cipher: aes-256-gcm
+  name: 🇸🇬[www.v2nodes.com] ss-SG-1559...
+  password: qpSevKaUXYQKvSjp
+  port: 8388
+  server: 139.180.220.175
+  type: ss
 - name: 🇸🇬[www.v2nodes.com] trojan-SG-...
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 15589
@@ -100,7 +111,19 @@ proxies:
   port: 8886
   server: 139.180.146.200
   type: trojan
-- name: '🇸🇬 新加坡 | SGP #3'
+- name: '🇸🇬[www.v2nodes.com] trojan-SG-... #3'
+  network: ws
+  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  port: 443
+  server: blackshadow.dpdns.org
+  skip-cert-verify: false
+  sni: blackshadow.dpdns.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: blackshadow.dpdns.org
+    path: '%2F195.123.218.174-443'
+- name: 新加坡1|@ripaojiedian
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 47966
@@ -108,7 +131,6 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-  udp: true
 - name: 新加坡2|@ripaojiedian
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
@@ -117,7 +139,7 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-- name: '🇸🇬 新加坡 | SGP #2'
+- name: 新加坡3|@ripaojiedian
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 37212
@@ -125,33 +147,13 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-  udp: true
-- name: 🇸🇬SG_2|1.7MB/s
-  password: None
-  port: 9090
-  server: 128.199.254.13
-  type: http
-- name: 🇸🇬SG_3|1.5MB/s
-  port: 14872
-  server: 45.74.31.42
-  skip-cert-verify: true
-  type: socks5
-- cipher: chacha20-ietf-poly1305
+- auth: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  fingerprint: C1:FD:40:94:1F:91:9B:5C:78:96:24:40:97:F2:2D:9D:95:8E:62:5C:D9:58:B7:5F:34:CC:FA:42:18:1F:50:B2
   name: '🇸🇬 新加坡 | SGP #1'
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  port: 8443
-  server: 18.143.185.164
-  type: ss
-  udp: true
-- client-fingerprint: firefox
-  name: '🇸🇬 新加坡 | SGP #4'
-  network: tcp
   port: 443
-  server: 45.76.155.179
-  servername: sg003.zestapp778.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  ws-opts:
-    path: /
+  server: 54.255.211.102
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
