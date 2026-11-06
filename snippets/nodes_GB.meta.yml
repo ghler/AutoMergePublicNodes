@@ -13,7 +13,7 @@ proxies:
   uuid: c08f0056-7a6d-4931-813b-aaa3cdd00aed
 - client-fingerprint: chrome
   encryption: none
-  name: 🇬🇧[www.v2nodes.com] vless-GB-7...
+  name: '🇬🇧[www.v2nodes.com] vless-GB-1... #7'
   network: ws
   port: 443
   server: 159.65.51.189
@@ -26,46 +26,30 @@ proxies:
     headers:
       Host: ccc.010304.xyz
     path: /
-- name: 🇬🇧[www.v2nodes.com] vless-GB-8...
-  network: ws
-  port: 443
-  server: 159.65.51.189
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-    path: /fp=chrome
-- encryption: none
-  name: '🇬🇧[www.v2nodes.com] vless-GB-8... #1'
-  network: ws
-  port: 443
-  server: 159.65.51.189
-  servername: ccc.010304.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-    path: /fp
-- encryption: none
-  name: '🇬🇧[www.v2nodes.com] vless-GB-8... #2'
-  network: ws
-  port: 443
-  server: 159.65.51.189
-  servername: ccc.010304.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+- cipher: aes-256-gcm
+  name: 🇬🇧[www.v2nodes.com] ss-GB-1616...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 198.244.201.129
+  type: ss
+- cipher: aes-256-gcm
+  name: '🇬🇧[www.v2nodes.com] ss-GB-1616... #1'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 198.244.202.215
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇬🇧[www.v2nodes.com] ss-GB-1615...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 142.202.51.22
+  type: ss
+- cipher: aes-256-gcm
+  name: '🇬🇧[www.v2nodes.com] ss-GB-1615... #1'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 38.114.120.221
+  type: ss
 - cipher: aes-256-gcm
   name: 🇬🇧[www.v2nodes.com] ss-GB-1602...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -78,70 +62,34 @@ proxies:
   port: 443
   server: 158.173.24.73
   type: ss
-- cipher: aes-256-gcm
-  name: 🇬🇧[www.v2nodes.com] ss-GB-1247...
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 94.156.250.148
-  type: ss
-- name: 🇬🇧GB_1|2.1MB/s
-  password: None
-  port: 443
-  server: 84.17.50.193
-  skip-cert-verify: true
+- client-fingerprint: firefox
+  name: '🇬🇧 英国 | GBR #1'
+  network: xhttp
+  port: 8444
+  server: 82.148.251.245
+  servername: at-86-10.cdn-lab.online
   tls: true
-  type: http
-- name: 🇬🇧GB_2|1.4MB/s
-  password: None
-  port: 9443
-  server: 84.17.50.129
-  skip-cert-verify: true
+  type: vless
+  udp: true
+  uuid: 5fa16fdf-5b3c-4f57-988d-b24c6722c91a
+  xhttp-opts:
+    host: at-86-10.cdn-lab.online
+    mode: auto
+    path: /xh
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  name: '🇬🇧 英国 | GBR #2'
+  network: xhttp
+  port: 8444
+  server: at-86-10.cdn-lab.online
+  servername: at-86-10.cdn-lab.online
   tls: true
-  type: http
-- name: 🇬🇧GB_3|2.4MB/s
-  password: None
-  port: 443
-  server: 185.164.138.156
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_4|2.8MB/s
-  password: None
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_5|2.7MB/s
-  password: None
-  port: 443
-  server: 212.102.63.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_6|2.7MB/s
-  password: None
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_7|1.7MB/s
-  port: 9443
-  server: 84.233.178.33
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_8|2.0MB/s
-  password: None
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_9|1.9MB/s
-  port: 443
-  server: 37.120.233.50
-  skip-cert-verify: true
-  tls: true
-  type: http
+  type: vless
+  udp: true
+  uuid: 5fa16fdf-5b3c-4f57-988d-b24c6722c91a
+  xhttp-opts:
+    host: at-86-10.cdn-lab.online
+    mode: auto
+    path: /xh
