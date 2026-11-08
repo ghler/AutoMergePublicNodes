@@ -40,7 +40,7 @@ proxies:
   port: 443
   server: 208.69.78.29
   type: trojan
-- name: 🇨🇭CH_2|2.5MB/s
+- name: 🇨🇭CH_2|1.0MB/s
   password: None
   port: 9443
   server: 37.120.213.210
