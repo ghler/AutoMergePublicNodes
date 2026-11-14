@@ -151,6 +151,16 @@ proxies:
   port: 443
   server: 216.152.147.74
   type: trojan
+- name: 🇨🇦CA_1|1.2MB/s|K001-260618
+  password: None
+  port: 443
+  server: 206.223.183.13
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
 - name: '🇨🇦 加拿大 | CAN #1'
   network: tcp
   port: 80
@@ -161,4 +171,3 @@ proxies:
   uuid: 6daa0b95-9210-4f29-be40-8c6db00bc5bb
   ws-opts:
     path: /
-  xudp: true

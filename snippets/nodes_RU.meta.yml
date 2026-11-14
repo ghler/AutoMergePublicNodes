@@ -58,31 +58,27 @@ proxies:
   port: 5112
   server: 90.156.203.62
   type: ss
-- name: 🇷🇺RU_1|2.2MB/s|P002-260618
-  password: 'null'
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇷🇺 俄罗斯 | RUS #4'
+  network: xhttp
+  port: 2053
+  server: windytrout.net
+  servername: windytrout.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 37af0181-5598-4aad-a040-d926bcb65757
+  xhttp-opts:
+    host: windytrout.net
+    mode: auto
+    path: /api/v1/upload
+- name: 🇷🇺RU_2|1.5MB/s
+  password: None
   port: 1446
   server: 46.29.166.134
   skip-cert-verify: true
-  sub_tag: P002-260618
   tls: true
   type: http
-  udp: true
-  username: 'null'
-  x-toolall-mihomo: true
-- name: 🇷🇺RU_2|1.4MB/s|R002-260618
-  port: 443
-  server: 178.219.43.226
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇷🇺RU_3|2.7MB/s
-  password: 'null'
-  port: 443
-  server: 178.219.43.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'

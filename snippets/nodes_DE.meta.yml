@@ -77,55 +77,54 @@ proxies:
   port: 19999
   server: 23.157.88.43
   type: ss
-- client-fingerprint: chrome
-  encryption: none
-  fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-  name: 🇩🇪DE_1|2.2MB/s
-  network: ws
-  port: 443
-  server: 199.232.78.120
-  servername: cdn.akamai.steamstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8d2cbffd-43d0-458d-906b-7c54b7b51f38
-  ws-opts:
-    headers:
-      Host: finalnsdger.global.ssl.fastly.net.
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/53.0.2785.143 Safari/537.36
-    path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_2|3.2MB/s
-  network: ws
-  port: 443
-  server: silk.filnex.baby
-  servername: silk.filnex.baby
-  tls: true
-  type: vless
-  udp: true
-  uuid: 820fa845-a1eb-4a83-b613-e6714cea8a1a
-  ws-opts:
-    headers:
-      Host: silk.filnex.baby
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /api/de5/stream
-  xudp: true
-- name: 🇩🇪DE_3|3.9MB/s|R002-260618
+- name: 🇩🇪DE_1|2.0MB/s
+  password: None
   port: 443
   server: 172.64.68.89
   skip-cert-verify: true
-  sub_tag: R002-260618
   tls: true
   type: http
+- name: 🇩🇪DE_2|3.5MB/s
+  port: 443
+  server: 172.64.69.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_3|2.1MB/s
+  port: 443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_4|1.6MB/s
+  password: 'null'
+  port: 9002
+  server: 158.173.154.4
+  skip-cert-verify: true
+  sni: 158.173.154.4
+  tls: true
+  type: http
+  username: 'null'
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪DE_5|1.6MB/s
+  network: tcp
+  port: 19829
+  server: 109.70.74.217
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-  x-toolall-mihomo: true
-- name: 🇩🇪DE_4|3.3MB/s
+  uuid: 36071c7e-846d-4f3e-a97a-cc8d28c94277
+  xudp: true
+- cipher: 2022-blake3-chacha20-poly1305
+  name: 🇩🇪DE_6|1.6MB/s
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  port: 443
+  server: 47.254.169.3
+  type: ss
+  udp: true
+- name: 🇩🇪DE_8|3.1MB/s
   password: 'null'
   port: 443
   server: 172.64.69.89
@@ -135,43 +134,6 @@ proxies:
   udp: true
   username: 'null'
   x-toolall-mihomo: true
-- name: DK_speednode_0006
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇩🇪DE_6|2.5MB/s
-  port: 443
-  server: 213.177.229.161
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_7|3.2MB/s
-  password: 'null'
-  port: 9002
-  server: 158.173.154.4
-  skip-cert-verify: true
-  sni: 158.173.154.4
-  tls: true
-  type: http
-  username: 'null'
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_8|1.0MB/s
-  network: xhttp
-  port: 4443
-  server: 2.26.88.140
-  servername: lv3.nexfile.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  xhttp-opts:
-    host: lv3.nexfile.net
-    path: /api/v1/sync/
-  xudp: true
 - alpn:
   - h2
   client-fingerprint: chrome
@@ -203,6 +165,22 @@ proxies:
     headers:
       Host: falmero.store
     path: /api/de1/stream
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  name: '🇩🇪 德国 | DEU #3'
+  network: xhttp
+  port: 443
+  server: 199.232.239.239
+  servername: community.fastly.steamstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 79cbf934-bc53-4a3a-9b8e-85b8ebc665f0
+  xhttp-opts:
+    host: cloudvpn2026-4.global.prod.fastly.net.global.prod.fastly.net
+    mode: packet-up
+    path: /@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel
 - alpn:
   - h3
   auth-str: dongtaiwang.com

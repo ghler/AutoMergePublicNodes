@@ -83,14 +83,8 @@ proxies:
   server: 149.28.130.108
   sni: searchcreativejobsandshowcaseyourartistictalents.com
   type: trojan
-- name: 🇸🇬SG_2|1.1MB/s
-  password: '!!str 8888'
-  port: 1080
-  server: 47.236.168.243
-  type: socks5
-  username: '8888'
 - client-fingerprint: chrome
-  name: 🇸🇬SG_4|1.3MB/s
+  name: 🇸🇬SG_1|1.1MB/s
   password: Z5lvhmLqSc
   port: 48994
   server: matrix.phonicsindia.mobi
@@ -98,6 +92,20 @@ proxies:
   sni: m.microsoft.com
   type: trojan
   udp: true
+- name: 🇸🇬SG_2|2.8MB/s
+  port: 9443
+  server: 149.88.99.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇸🇬SG_3|1.4MB/s
+  password: None
+  port: 9090
+  server: 152.42.170.187
+  skip-cert-verify: true
+  type: http
 - auth: 7e68e32f-8015-4f37-9082-70e8b0b58043
   fingerprint: C1:FD:40:94:1F:91:9B:5C:78:96:24:40:97:F2:2D:9D:95:8E:62:5C:D9:58:B7:5F:34:CC:FA:42:18:1F:50:B2
   name: '🇸🇬 新加坡 | SGP #3'

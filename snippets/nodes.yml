@@ -366,7 +366,7 @@ proxies:
   server: dns24.m3hrzd.ir
   type: ss
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_1|2.9MB/s
+  name: 🇮🇹IT_5|1.7MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.72
@@ -394,7 +394,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_5|4.1MB/s
+  name: 🇮🇹IT_6|1.6MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.99
@@ -408,12 +408,11 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_2|2.6MB/s
+  name: '🇮🇹[www.v2nodes.com] ss-IT-1619... #6'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.45
   type: ss
-  udp: true
 - cipher: aes-256-gcm
   name: '🇮🇹 意大利 | ITA #1'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -782,12 +781,15 @@ proxies:
   server: 149.28.130.108
   sni: searchcreativejobsandshowcaseyourartistictalents.com
   type: trojan
-- name: '🇹🇷 土耳其 | TUR #2'
+- client-fingerprint: chrome
+  name: '🇹🇷 土耳其 | TUR #2'
   password: d7563108-615c-4338-a7bd-77f359869a4a
   port: 20027
   server: sclass-b1.catcat321.com
+  servername: hk.catxstar.com
   skip-cert-verify: true
   sni: hk.catxstar.com
+  tls: true
   type: trojan
   udp: true
 - name: '🇹🇷 土耳其 | TUR #1'
@@ -798,8 +800,15 @@ proxies:
   sni: hk.catxstar.com
   type: trojan
   udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_7|1.2MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.18
+  type: ss
+  udp: true
 - client-fingerprint: chrome
-  name: 🇸🇬SG_4|1.3MB/s
+  name: 🇸🇬SG_1|1.1MB/s
   password: Z5lvhmLqSc
   port: 48994
   server: matrix.phonicsindia.mobi
@@ -807,23 +816,18 @@ proxies:
   sni: m.microsoft.com
   type: trojan
   udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: 🇳🇱NL_12|2.0MB/s
-  network: ws
-  password: QzVKeGlc2qYRxyzWb3xZFjHbqY2JmOfZ
-  port: 2087
-  server: 199.68.156.221
-  skip-cert-verify: true
-  sni: nexoastra.xnetaro.ir
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪DE_5|1.6MB/s
+  network: tcp
+  port: 19829
+  server: 109.70.74.217
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /wss
+  uuid: 36071c7e-846d-4f3e-a97a-cc8d28c94277
+  xudp: true
 - alpn:
   - ''
   alterId: 0
