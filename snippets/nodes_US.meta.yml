@@ -1,12 +1,4 @@
 proxies:
-- name: 🇺🇸12@exclavevpn
-  password: 146d567c-6335-4e63-a8aa-7ec068642440
-  port: 443
-  server: nlll.obxodvpn.us
-  skip-cert-verify: true
-  sni: nlll.obxodvpn.us
-  tls: false
-  type: hysteria2
 - name: 🇺🇸139909 | ⚡️Telegram = t.me/S...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
@@ -24,21 +16,7 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  encryption: none
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #2'
-  network: ws
-  port: 443
-  server: 199.232.78.120
-  servername: cdn.akamai.steamstatic.com
-  tls: true
-  type: vless
-  uuid: 8d2cbffd-43d0-458d-906b-7c54b7b51f38
-  ws-opts:
-    headers:
-      Host: usaslioijji.global.ssl.fastly.net.
-    path: /
-- client-fingerprint: chrome
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #19'
+  name: '🇺🇸[www.v2nodes.com] vless-US-1... #12'
   network: ws
   port: 443
   server: 199.232.78.160
@@ -52,7 +30,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   encryption: none
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #20'
+  name: '🇺🇸[www.v2nodes.com] vless-US-1... #8'
   network: ws
   port: 443
   server: wwww.qarvian.ir
@@ -63,32 +41,6 @@ proxies:
   ws-opts:
     headers:
       Host: copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net.
-    path: /
-- client-fingerprint: chrome
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #6'
-  network: ws
-  port: 443
-  server: xray-piox09gf-calm-maple-6.cloady.io
-  servername: xray-piox09gf-calm-maple-6.cloady.io
-  tls: true
-  type: vless
-  uuid: 5633d1c3-fa8e-cd74-5b6b-6c464f36472a
-  ws-opts:
-    headers:
-      Host: xray-piox09gf-calm-maple-6.cloady.io
-    path: /0f6186ec3c6d8474
-- client-fingerprint: chrome
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #17'
-  network: ws
-  port: 443
-  server: 146.75.59.186
-  servername: cdn.akamai.steamstatic.com
-  tls: true
-  type: vless
-  uuid: 97e0ea78-67ae-4984-8a14-a7d1a51e58de
-  ws-opts:
-    headers:
-      Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
     path: /
 - cipher: chacha20-ietf-poly1305
   name: 🇺🇸[www.v2nodes.com] ss-US-1620...
@@ -114,124 +66,63 @@ proxies:
   sni: ssl.fastly.com
   type: trojan
   udp: true
-- name: 🇺🇸US_1|2.0MB/s
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US_2|1.8MB/s|P002-260618
-  password: None
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US_3|2.2MB/s|P002-260618
-  password: None
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US_4|2.5MB/s|P002-260618
-  password: None
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US_5|2.4MB/s|K001-260618
-  password: None
-  port: 443
-  server: 193.239.236.134
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US_6|3.3MB/s
-  port: 38182
-  server: 69.55.49.177
-  skip-cert-verify: true
+- name: 🇺🇸US_1|2.7MB/s
+  password: l1tlrdx52v
+  port: 62000
+  server: 66.253.2.69
   type: socks5
+  username: u_rb1dba2
 - alpn:
-  - h2
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: mobile.api.Event
-  name: 🇷🇺 俄罗斯 | RUS 2
-  network: grpc
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 🇺🇸US_2|1.4MB/s
+  network: ws
+  port: 80
+  server: www.speedtest.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6fa9def2-edcb-4348-b012-6622c959a620
+  ws-opts:
+    headers:
+      Host: prairie-formats-holland-bundle.trycloudflare.com
+    path: /@ferdolans7
+  xudp: true
+- client-fingerprint: chrome
+  name: '🇷🇺 俄罗斯 | RUS #1'
+  network: xhttp
   port: 443
-  server: 201.51.12.98
-  servername: vps3.nemnogogo.com
+  server: 94.228.117.93
+  servername: login.alfatrud.ru
   tls: true
   type: vless
   udp: true
-  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
-- name: 🇺🇸 美国 | USA 2
-  password: 46f2efeb-4c5f-42d6-bf9d-558b8c907128
-  port: 443
-  server: usa1.gosthk.site
-  skip-cert-verify: true
-  sni: usa1.gosthk.site
-  type: anytls
-  udp: true
-- cipher: 2022-blake3-aes-256-gcm
-  name: '🇺🇸 美国 | USA #1'
-  password: f2Nq5YLnyclPaWR8my7/Vdd3ZX8URncXZNly5+HcUSs=:dQ6WYcPpGX5xIxUVPAR8w1A9eY6kEVoKKW3HleJ6o8Y=
-  port: 8086
-  server: frr.drwrdoh.org
-  type: ss
-  udp: true
-- alpn:
-  - h3
-  auth-str: github.com/Alvin9999-newpac/fanqiang
-  auth_str: github.com/Alvin9999-newpac/fanqiang
-  down: 50
-  name: 🇺🇸 美国 | USA 4
-  port: 22335
-  server: 198.200.57.142
-  skip-cert-verify: true
-  type: hysteria
-  up: 10
-- alterId: 0
-  cipher: auto
-  name: '🇺🇸 美国 | USA #6'
+  uuid: ceab5251-eaa3-4a2f-bdd4-ce9df24d9edd
+  xhttp-opts:
+    host: login.alfatrud.ru
+    mode: packet-up
+    path: /api/stream/
+- name: '🇺🇸 美国 | USA #3'
   network: ws
-  port: 443
-  server: US032012.westmgreen.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
+  port: 8080
+  server: 104.19.173.68
+  tls: false
+  type: vless
   udp: true
-  uuid: fbc990c5-c62e-4e31-a9a5-db3a4fe42741
+  uuid: 2500e602-671c-4654-a602-c518b7282167
   ws-opts:
     headers:
-      Host: US032012.westmgreen.com
-    path: /wes
-- alpn:
-  - h2
-  client-fingerprint: firefox
+      Host: 2639w-throbbing-band-3840.xphnn6jp.workers.dev
+    path: /
+- client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: ''
-  name: '🇷🇺 俄罗斯 | RUS #2'
+  name: '🇷🇺 俄罗斯 | RUS #3'
   network: grpc
   port: 443
-  server: 201.51.12.98
+  server: 201.24.116.192
   servername: vps3.nemnogogo.com
   tls: true
   type: vless
