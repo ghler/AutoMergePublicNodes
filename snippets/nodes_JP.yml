@@ -17,25 +17,18 @@ proxies:
   port: 443
   server: 149.22.87.241
   type: ss
-- cipher: aes-128-gcm
-  name: 🇯🇵 日本 | JPN
-  password: 78f30e05-8bbb-4460-a7e1-df58039d4282
-  plugin: obfs
-  plugin-opts:
-    host: f646e6bf4cb428c6cfaf5389d43d5e09.baidu.com
-    mode: http
-  port: 36603
-  server: dlyqv8kg.jhm.qwer123.net
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 🇯🇵 日本 | JPN 2
-  password: 78f30e05-8bbb-4460-a7e1-df58039d4282
-  plugin: obfs
-  plugin-opts:
-    host: f646e6bf4cb428c6cfaf5389d43d5e09.baidu.com
-    mode: http
-  port: 36609
-  server: dlyqv8kg.jhm.qwer123.net
-  type: ss
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: '🇯🇵 日本 | JPN #1'
+  network: ws
+  port: 443
+  server: JP032010.ssgreen.org
+  servername: JP032010.ssgreen.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f9a1ee44-21b3-4d0e-81b6-265fa2f3ba57
+  ws-opts:
+    headers:
+      Host: JP032010.ssgreen.org
+    path: /wes
